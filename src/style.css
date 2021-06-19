@@ -1,4 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .App {
     font-family: sans-serif;
     text-align: center;
   }
+
+
+body {
+  background: #1F1C2C; 
+  background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  
+  background: linear-gradient(to right, #928DAB, #1F1C2C);   
+  margin: 0px;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+  background: #1F1C2C;
+  background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C); 
+  background: linear-gradient(to right, #928DAB, #1F1C2C); 
+  color:white;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  text-shadow: 0 0 4px #FF0000;
+}
+input {
+  border: 1px solid black;
+  width: 45%;
+  height: 3vh;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0rem;
+  padding: 1rem;
+}
+
+.image {
+  position:fixed;
+  top:2%;
+  left:62.5%;
+  z-index: 1;
+}
+
+.bottomright {
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  text-shadow: 2px 2px 4px #000000;
+  position: absolute;
+  bottom: 5px;
+  right: 16px;
+  font-size: 15px;
+}
