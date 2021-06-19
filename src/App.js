@@ -32,6 +32,7 @@ var emojiDictionary = {
   "😠": "Angry Face",
   "😀": "Grinning Face",
   "😃": "Grinning Face with Big Eyes",
+  "👿": "Angry Face with Horns",
   "😄": "Grinning Face with Smiling Eyes",
   "😅": "Grinning Face with Sweat",
   "🤪": "Zany Face",
@@ -40,7 +41,6 @@ var emojiDictionary = {
   "😐": "Neutral Face",
   "🤥": "Lying Face",
   "😌": "Relieved Face",
-  "😔": "Pensive Face",
   "😪": "Sleepy Face",
   "🤒": "Face with Thermometer",
   "🤕": "Face with Head-Bandage",
@@ -52,7 +52,6 @@ var emojiDictionary = {
   "🥱": "Yawning Face",
   "😤": "Face with Steam From Nose",
   "😈": "Smiling Face with Horns",
-  "👿": "Angry Face with Horns",
 };
 
 var emojisWeKnow = Object.keys(emojiDictionary);
