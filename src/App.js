@@ -64,7 +64,7 @@ export default function App() {
     var meaning = emojiDictionary[userInput];
 
     if (meaning === undefined) {
-      meaning = <h3>"Sorry, this is not in out database"</h3>;
+      meaning = <h3>"Sorry, this is not in out database❌"</h3>;
     }
     setMeaning(meaning);
   }

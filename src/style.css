@@ -9,7 +9,8 @@
 body {
   background: #1F1C2C; 
   background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  
-  background: linear-gradient(to right, #928DAB, #1F1C2C);   
+  background: linear-gradient(to right, #928DAB, #1F1C2C); 
+  padding: 5rem;
   margin: 0px;
   overflow: hidden;
 }
@@ -17,14 +18,11 @@ body {
 h1 {
   font-family: 'Montserrat', sans-serif;
   text-shadow: 2px 2px 4px #000000;
-  background: #1F1C2C;
-  background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C); 
-  background: linear-gradient(to right, #928DAB, #1F1C2C); 
   color:white;
   width: 100%;
   text-align: center;
-  margin: 0;
-  padding: 1rem;
+  margin: 0rem;
+  padding: 0.5rem;
 }
 
 h3 {
@@ -48,12 +46,6 @@ input {
   padding: 1rem;
 }
 
-.image {
-  position:fixed;
-  top:2%;
-  left:62.5%;
-  z-index: 1;
-}
 
 .bottomright {
   font-family: 'Montserrat', sans-serif;
